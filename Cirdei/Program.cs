@@ -10,6 +10,16 @@ using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
 using OpenTK.Platform;
 
+
+//Rezolvarea (mea  ) de la punctul 2. aferent laboratorului 2.
+
+//********************************************************************************
+//                                                                               *
+//La apasarea butonului A va aparea un triunghi in mijlocul ecranului iar        *
+//la apasarea butonului D se va randa un nou triunghi deplasat la dreapta        *
+//si triunghiul din mijloc va disparea                                           *
+//                                                                               *
+//********************************************************************************
 namespace OpenTK_console_sample01
 {
     class SimpleWindow : GameWindow
@@ -58,14 +68,6 @@ namespace OpenTK_console_sample01
                 makeTriangleBig = true;
             }
             
-            
-
-
-            if (mouse[OpenTK.Input.MouseButton.Left])
-            {
-                // Ascundere comandată, prin clic de mouse - fără testare remanență.
-               
-            }
         }
 
         private void HandleKeyboard()
